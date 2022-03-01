@@ -18,6 +18,7 @@ a different greeting should be displayed in the box.
 */
 
 fetch("https://codeyourfuture.herokuapp.com/api/greetings")
+.then(checkFetch)
   .then(function (response) {
     return response.text();
   })

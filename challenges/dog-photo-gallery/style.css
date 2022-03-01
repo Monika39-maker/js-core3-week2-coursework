@@ -1,0 +1,31 @@
+body {
+    background: darkolivegreen;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
+img {
+    width: 500px;
+    height: 500px;
+    
+}
+ul {
+    margin-left: auto;
+    margin-right: auto;
+}
+button {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 80px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: darkolivegreen;
+    border-radius: 10px;
+    box-shadow: 2px 2px grey;
+}
+h1 {
+    text-align: center;
+
+}
